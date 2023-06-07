@@ -1,0 +1,55 @@
+body {
+    margin: 0px;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+.box {
+    margin: 5px;
+    text-align: center;
+    background-color: aliceblue;
+    color: black;
+    height: auto;
+    font-weight: 600;
+    font-size: 1em;
+}
+
+.container1 {
+    width: 100%;
+    background-color: blue;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+
+.container2 {
+    width: 100%;
+    background-color: blue;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+
+}
+
+.container3 {
+    width: 100%;
+    background-color: blue;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+
+.container4 {
+    width: 100%;
+    background-color: blue;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+
+}
